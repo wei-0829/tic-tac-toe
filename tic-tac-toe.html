@@ -59,11 +59,11 @@
 			
 			if (isLine == true) {			
 				if (currentSelection.innerHTML == "O") {
-					window.alert("O贏了！");
+					setTimeout( () => window.alert("O贏了！"), 1000) ;
 					location.reload();
 				}
 				else if (currentSelection.innerHTML == "X") {
-					window.alert("X贏了！");
+					setTimeout( () => window.alert("X贏了！")), 1000);
 					location.reload();
 				}
 			} else if (count == 9) {
